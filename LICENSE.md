@@ -1,8 +1,3 @@
----
-
-# **AUTH_PROTOCOL.md**
-
-```md
 # GSM SIM Authentication Protocol (Technical Overview)
 
 ## Phase 1: Initialization
@@ -31,3 +26,13 @@
 | Lc  | 10 | RAND length (16 bytes) |
 | Data| RAND | Random Challenge |
 | Le  | 04 | Expected response length (4 bytes SRES) |
+
+---
+
+## Legal Disclaimer
+This document is provided for educational and research purposes only. It does not contain any confidential or proprietary information from mobile operators or card manufacturers. The implementation details are derived from publicly available standards such as ETSI and ISO/IEC 7816.
+
+---
+
+## License Notice
+© 2025, Ely. This repository and all its content are licensed under the MIT License unless explicitly stated otherwise in specific files. See `README.md` for further details.
